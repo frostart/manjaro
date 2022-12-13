@@ -4,6 +4,10 @@
 
 ```
 systemctl disable --now touchegg
+```
+```
 pacman -Rcsu touchegg
-reboot
+```
+```
+sudo reboot
 ```
