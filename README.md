@@ -1,1 +1,1 @@
-# manjaro
+# Manjaro
