@@ -31,6 +31,7 @@ gh auth login
 ```
 ### Alacritty
 Copy from ~/git/dotfiles/alacritty.yml to ~/.config/alacritty
+
 Change window.opacity: 0.92 on
 ```
 window:
