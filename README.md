@@ -1,4 +1,4 @@
-# Установка Manjaro Linux
+# Manjaro Linux Setup
 
 ## Исправление ошибок
 ### 1. Error connecting to Touchégg daemon: Could not connect: Connection refused
