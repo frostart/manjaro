@@ -1,6 +1,6 @@
 # Manjaro Linux Setup
 
-## Исправление ошибок
+## Error repair
 ### 1. Error connecting to Touchégg daemon: Could not connect: Connection refused
 
 ```
@@ -12,23 +12,24 @@ sudo pacman -Rcsu touchegg
 ```
 sudo reboot
 ```
-## Установка пакетов
+## Programms Install
 ```
 sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu ranger nnn alacritty lazygit fzf zoxide npm nodejs tmux docker podman --noconfirm
 ```
 ```
 sudo pamac install openrgb-bin yandex-browser
 ```
-### Установка шрифтов Nerd
+### Nerd Fonts Setup
 ```
 sudo pamac install nerd-fonts-complete --no-confirm 
 ```
 
-## Git
+## Git auth
 ```
 gh auth login
 ```
-### Alacritty
+### Alacritty Terminal
+
 Copy from ~/git/dotfiles/alacritty.yml to ~/.config/alacritty
 
 Change window.opacity: 0.92 on:
