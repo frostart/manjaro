@@ -14,7 +14,7 @@ sudo reboot
 ```
 ## Установка пакетов
 ```
-sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu ranger nnn alacritty lazygit fzf zoxide --noconfirm
+sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu ranger nnn alacritty lazygit fzf zoxide npm nodejs tmux --noconfirm
 ```
 Добавляем репозиторий AUR
 ```
