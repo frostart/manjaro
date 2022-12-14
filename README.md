@@ -13,24 +13,11 @@ pacman -Rcsu touchegg
 sudo reboot
 ```
 ## Установка пакетов
-### 1. Midnight Commander
 ```
-sudo pacman -S mc
+sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu --noconfirm
 ```
-### 2. Htop
+Добавляем репозиторий AUR
 ```
-sudo pacman -S htop
-```
-### 2. Neofetch
-```
-sudo pacman -S neofetch
-```
-### 3. Gh
-```
-sudo pacman -S gh
-```
-### 4. Code
-```
-sudo pacman -S code
+sudo pamac install openrgb-bin
 ```
 
