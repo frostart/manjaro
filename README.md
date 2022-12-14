@@ -11,3 +11,7 @@ pacman -Rcsu touchegg
 ```
 sudo reboot
 ```
+### 2. Установка пакетов
+```
+sudo pacman -S mc htop neofetch gh
+```
