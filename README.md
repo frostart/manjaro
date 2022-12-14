@@ -37,4 +37,10 @@ Change window.opacity: 0.92 on:
 window:
   opacity: 0.92
 ```
+### Oh My Zsh
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+
 
