@@ -14,11 +14,15 @@ sudo reboot
 ```
 ## Установка пакетов
 ```
-sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu --noconfirm
+sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu ranger nnn--noconfirm
 ```
 Добавляем репозиторий AUR
 ```
 sudo pamac install openrgb-bin yandex-browser
 ```
 
+## Git
+```
+gh auth login
+```
 
