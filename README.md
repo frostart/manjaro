@@ -14,7 +14,7 @@ sudo reboot
 ```
 ## Установка пакетов
 ```
-sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu ranger nnn alacritty --noconfirm
+sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu ranger nnn alacritty lazygit fzf zoxide --noconfirm
 ```
 Добавляем репозиторий AUR
 ```
@@ -48,4 +48,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 ```
 p10k configure
 ```
+### AstroNvim
 
+```
+
+```
