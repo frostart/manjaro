@@ -62,3 +62,4 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 nvim
 ```
+
