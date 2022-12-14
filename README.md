@@ -18,6 +18,7 @@ sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu --noconfirm
 ```
 Добавляем репозиторий AUR
 ```
-sudo pamac install openrgb-bin
+sudo pamac install openrgb-bin yandex-browser
 ```
+
 
