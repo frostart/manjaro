@@ -17,6 +17,13 @@ sudo reboot
 ```
 gsettings set org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
 ```
+### 3. X11 Scaling Factor
+```
+sudo pacman -S mutter-x11-scaling
+```
+```
+gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"
+```
 
 ## Programms Install
 ```
