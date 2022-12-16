@@ -24,6 +24,13 @@ sudo pacman -S mutter-x11-scaling
 ```
 gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"
 ```
+### 4. QT small fonts correction
+
+sudo nvim  /etc/profile.d/qt-hidpi.sh  
+```
+```
+export QT_DEVICE_PIXEL_RATIO=1.3
+```
 
 ## Programms Install
 ```
