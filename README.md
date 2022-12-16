@@ -75,4 +75,20 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 nvim
 ```
+### Wireguard
+
+```
+sudo pacman -S wireguard-tools
+```
+```
+sudo cp ~/vpn/manjaro-ruvds.conf /etc/wireguard/wg0.conf
+```
+Поднять
+```
+wg-quick up wg0 
+```
+Опустить
+```
+wg-quick up wg0 
+```
 
