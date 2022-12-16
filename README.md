@@ -27,7 +27,7 @@ gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-sca
 ### 4. QT small fonts correction
 
 ```
-sudo nvim  /etc/profile.d/qt-hidpi.sh  
+sudo nvim /etc/profile.d/qt-hidpi.sh  
 ```
 ```
 export QT_DEVICE_PIXEL_RATIO=1.3
