@@ -89,6 +89,6 @@ wg-quick up wg0
 ```
 Опустить
 ```
-wg-quick up wg0 
+wg-quick down wg0 
 ```
 
