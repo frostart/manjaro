@@ -1,6 +1,6 @@
 # Manjaro Linux Setup
 
-## Error repair
+## Errors repair
 ### 1. Error connecting to Touchégg daemon: Could not connect: Connection refused
 
 ```
@@ -12,6 +12,12 @@ sudo pacman -Rcsu touchegg
 ```
 sudo reboot
 ```
+### 2. Duplicate first key stroke on activities overview
+
+```
+gsettings set org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
+```
+
 ## Programms Install
 ```
 sudo pacman -S mc htop neofetch gh code inxi ripgrep gdu ranger nnn alacritty lazygit fzf zoxide npm nodejs tmux docker podman --noconfirm
