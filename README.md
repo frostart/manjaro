@@ -32,6 +32,9 @@ sudo nvim /etc/profile.d/qt-hidpi.sh
 ```
 export QT_DEVICE_PIXEL_RATIO=1.3
 ```
+```
+reboot
+```
 
 ## Programms Install
 ```
