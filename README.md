@@ -111,4 +111,9 @@ wg-quick up wg0
 ```
 wg-quick down wg0 
 ```
+### Ham Software
+
+```
+sudo usermod -a -G uucp $USER 
+```
 
