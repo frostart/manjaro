@@ -48,7 +48,7 @@ sudo pamac install openrgb-bin yandex-browser
 sudo pamac install nerd-fonts-complete --no-confirm 
 ```
 
-## Git auth
+## Git
 ```
 gh auth login
 ```
