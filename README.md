@@ -101,7 +101,7 @@ nvim
 sudo pacman -S wireguard-tools
 ```
 ```
-sudo cp ~/vpn/manjaro-ruvds.conf /etc/wireguard/wg0.conf
+sudo cp ~/vpn/linux-ruvds.conf /etc/wireguard/wg0.conf
 ```
 Поднять
 ```
